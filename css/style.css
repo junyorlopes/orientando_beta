@@ -1,0 +1,242 @@
+
+/* img docente */
+.img_docente{
+    top:0px; 
+    left:0px;
+    height: 200px;
+    width: 200px;
+}
+
+/* circulo branco */
+.circulo_img {
+    top:0px; 
+    left:0px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+/* nome da instuluição */
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* nome docente */
+.nome-docente{
+	padding-top: 50px;
+	margin-left: 10px;
+}
+
+/* div de apresentação */
+.divApresentacao{
+	color: #ffffff;
+	background-color: #760a0a;
+}
+
+/* div */
+.divArea_pes{
+	padding-top: 90px;
+	padding-bottom: 70px;
+	margin-bottom: 30px;
+	color: #ffffff;
+	background-color: #ddd;
+}
+
+/* rodape */
+.rodape {
+	margin-top: 1%;
+	background: #00264d;
+	color: #ffffff;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* conteudo */
+.conteudo_home{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align:center;
+}
+
+/* conteudo listar docentes*/
+.conteudo_listar_docentes{
+	margin-left: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+/* titulo */
+.titulo{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+/* mapa */
+.mapa{
+	margin-left: 18%;
+	margin-top: 5%;
+	margin-bottom: 5%;	
+}
+
+/* curso */
+.curso_algn{
+	margin-left: 1%;
+}
+
+/* borda das tabelas*/
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #999999;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #999999;
+}
+  
+/*--------------------------------------------------*/
+/*Pag administrativa*/
+  
+/* Painel */ 
+.sidebar {
+	margin-left: 0px;
+    /*position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;*/
+    display: block;
+    padding: 22px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+	font-size: 18px;
+  }
+
+ /* botao sair menu */
+.sair {
+	float: right;
+	height: -10px;
+	padding: 15px 15px;
+	font-size: 15px;
+	line-height: 20px;
+}
+.sair a:visited {
+    color: #ffffff;
+}
+
+/* Painel */
+.nav-sidebar {
+  /*margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;*/
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/* Div login */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.limpar{
+	float: none;
+}
+
+.teste{
+	position:relative;
+	float:left;
+	
+	
+}
+
+.teste2 {
+	border:0 !important;
+}
+
+.teste3{
+	float:left;
+	width:200px;
+	background: #000 !important;
+}
+
+/*menu page_adm*/
+.navbar-default {
+  background-color: #990000;
+  border-color: #990000;
+}
+
+/*cor nome instituição*/
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+/*cor encostar mouse na instituição*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffe6e6;
+  background-color: transparent;
+}
+
+/*Linhas smartphone*/
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+/*cores itens menu*/
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+/*cor encostar mouse nos itens do menu*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffe6e6;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

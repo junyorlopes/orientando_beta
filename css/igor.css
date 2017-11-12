@@ -1,0 +1,350 @@
+
+/***************************
+	igor 
+***************************/
+
+
+/********************
+      perfil 
+ ********************/
+
+.perfil-box{
+
+  width: 150px;
+  height: 150px;
+  background: red;
+  float: left;
+
+}
+
+.info-perfil {
+  border: 1px solid #ccc;
+  float: left;
+}
+
+.titulo {
+
+}
+
+
+.mg-l1{
+    margin-left:25px;
+}
+
+.btn-pesquisar {
+    margin:10px;
+}
+
+ #pesquisa-lista span, .box1-pesquisa {
+    
+    float:left;
+    background:#337AB7;
+    border:1px solid #000;
+    padding:5px 13px 5px 13px;
+    color:#FFFFFF;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+/************************
+form docentes
+
+***********************/
+
+.grupo-formacao{
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #ccc;
+    padding: 10px 10px;
+    margin-top: 10px;
+    
+}
+
+
+ #lista-pesquisa{
+    width: 69%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*border:1px solid #ccc;*/
+    padding: 10px 5px;
+    margin-top: 10px;
+    /*background: #000;*/
+    
+}
+
+
+
+#lista-pesquisa ul {
+    list-style: none;
+    /*width: 100%;*/
+    float: left;
+    /*padding: 0 25px;*/
+    margin: 0;
+   /* background: #ccc;*/
+}
+
+#lista-pesquisa ul li{
+    float: left;
+    padding: 10px 10px;
+   /* margin: 10px 20px;*/
+    font-weight: bold;
+    
+    min-width:31%;
+}
+
+.pesquisa-itens {
+    background: #ccF;
+    margin: 5px;
+    float: left;
+}
+
+#btn-remove-pesquisa{
+    margin: 0px 5px;
+}
+
+.grupo-formacao .legenda {
+    float: left;
+    display: inline;
+    font-weight: bold;
+    padding: 0px 10px 0px 0px;
+}
+
+.legenda {
+    float: left;
+    display: inline;
+    font-weight: bold;
+    padding: 0px 10px 0px 0px;
+}
+
+.pdt-1 {
+  margin-top: 2%;
+}
+
+
+.pdt-2{
+   margin-top: 25px;
+}
+
+
+
+@media (max-width: 990px){
+
+  .circulo_img {
+     left: 35%;
+  }
+
+
+}
+
+
+@media (max-width: 400px){
+
+  .circulo_img {
+     left: 22%;
+  }
+}
+
+ .menu {
+  float: left;
+  padding: 15px 15px;
+  min-height: 50px;
+  font-size: 18px;
+  line-height: 20px;
+  background: #990000;
+  width: 100%;
+  float: left;
+  /*position: fixed;
+  z-index: 1;*/
+
+ }
+
+.menu a{
+   
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  float:  left;
+
+
+
+}
+
+.menu a:hover{
+   
+}
+
+
+.menu ul {
+
+  float: left;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+}
+
+.menu ul li, .menu a{ 
+
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  /*/background: #000;*/  
+
+}
+
+.box-logo {
+  height: auto;
+  padding: 0px 15px;
+  /*margin-bottom: 10px;*/
+  padding-bottom: 10px;
+  float: left;
+}
+
+
+/* img docente */
+.img_docente{
+	position:center; 
+	top:0px; 
+	left:0px;
+	height: 200px;
+  width: 200px;
+}
+
+/* circulo branco */
+.circulo_img {
+  top:0px; 
+  left:0px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background: #ffff;
+  
+}
+
+
+
+/* div de apresentação */
+/*.divApresentacao{
+  padding-top: 90px;
+  padding-bottom: 70px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  background-color: #760a0a;
+}*/
+
+.apresentacao-2{
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  margin: 0;
+  color: #ffffff;
+  background-color: #760a0a;
+  margin-top: -20px;
+}
+
+
+.apresentacao-2 h2{
+
+  margin: 25px 0 0 25px;
+}
+
+.apresentacao-expansao {
+  padding: 25px;
+  margin-bottom: 5px;
+}
+
+.view-box{
+    
+    padding: 10px;
+    margin: 10px;
+    float: left
+    
+}
+
+.view-box b{
+    
+    margin:5px 0px 5px -10px;
+    
+}
+
+.view-box p{
+    /*margin:0px 25px;*/
+}
+
+.view-mx-1{
+    margin-right:-35px !important;    
+}
+
+.view-box-fom {
+    display: inline;
+}
+
+.view-box form{
+    
+    float: left;
+    margin: 5px;
+    
+}
+
+
+
+
+.box-pedido{
+    background:#ccc;
+}
+
+#lista-pedidos{
+    
+    margin:10px;
+}
+
+div#lista-pedidos  div{
+    
+    margin:10px;
+    
+    
+}
+
+div#lista-pedidos a {
+    text-decoration:none;
+}
+
+div#lista-pedidos input[type="radio"]{
+    
+    /*float:left;*/
+   /* display:none;*/
+   margin-left:5px;
+}
+
+.teste-5 {
+    background: #000;
+}
+
+
+.teste{
+  position:relative;
+  float:left;
+  
+  
+}
+
+.teste2 {
+  border:0 !important;
+}
+
+.teste3{
+  float:left;
+  width:200px;
+  background: #000 !important;
+}
+
+
+.teste4{
+   background: #ccc !important;
+}
+
+.teste6{
+    background: #fff;
+}
